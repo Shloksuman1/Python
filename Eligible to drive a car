@@ -1,0 +1,5 @@
+age = int(input('How old are you? '))
+if (age>=18) :
+    print ('Congratulations you can drive.')
+else:
+    print ('Sorry! You are not eligible to drive a car.')
