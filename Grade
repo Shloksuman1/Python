@@ -1,0 +1,32 @@
+print("Enter marks obtained in 13 subjects (out of 100)")
+marks1 = int(input())
+marks2 = int(input())
+marks3 = int(input())
+marks4 = int(input())
+marks5 = int(input())
+marks6 = int(input())
+marks7 = int(input())
+marks8 = int(input())
+marks9 = int(input())
+marks10 = int(input())
+marks11 = int(input())
+marks12 = int(input())
+marks13 = int(input())
+
+average = (marks1 + marks2 + marks3 + marks4 + marks5 + marks6 + marks7 + marks8 + marks9 + marks10 + marks11 + marks12 + marks13)/13
+if average>90 and average<=100:
+    print ("Your Grade is A+")
+elif average>80 and average<=90:
+     print ("Your Grade is A")
+elif average>70 and average<=80:
+    print ("Your Grade is B")
+elif average>60 and average<=70:
+    print ("Your Grade is B+")
+elif average>50 and average<=60:
+    print ("Your Grade is C")
+elif average>40 and average<=50:
+    print ("Your Grade is D")
+elif average>30 and average<=40:
+    print ("Your Grade is E")
+else:
+    print ("Your Grade is F")
